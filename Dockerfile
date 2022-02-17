@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.13
 
 RUN apk --no-cache add busybox-suid tzdata && \
 ln -snf /usr/share/zoneinfo/America/Chicago /etc/localtime && \
